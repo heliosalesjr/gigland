@@ -6,7 +6,7 @@ const StylizedDiv = styled.div`
     background: ${props => props.theme.colors.secondary.a};
     border: 2px solid;
     border-color: ${props => props.theme.colors.primary.a};
-    border-radius: ${props => props.theme.spacing.m};
+    border-radius: ${props => props.theme.spacing.s};
 `
 
 const Card = ({children}) => {

@@ -1,11 +1,19 @@
 import { css, Global } from '@emotion/react';
 import React from 'react'
 
-const styles = css`
-    * {
-        font-family: 'open-sans', sans-serif;
-    }
-`;
+const styles =  theme => {
+  return {
+    html: {
+      fontFamily: theme.fontFamily,
+    },
+
+    body: {
+      margin: 0,
+    },
+    
+  }
+}
+;
 
 const Styles = () => {
   return (
